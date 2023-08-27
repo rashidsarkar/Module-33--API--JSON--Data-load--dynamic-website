@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comment</title>
+  <style>
+    #comment_container {
+      display: grid;
+      /* background-color: aquamarine; */
+      gap: 10px;
+      padding: 10px;
+      border-radius: 12px;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+
+
+    }
+
+    .work {
+      margin: 10px;
+      gap: 10px;
+      padding: 10px;
+      border-radius: 12px;
+      background-color: aquamarine;
+      text-align: center;
+
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2>Here The All Coment</h2>
+    <button>Get All Comment</button>
+  </header>
+  <main>
+    <div id="comment_container"></div>
+  </main>
+
+  <script src="js/comment.js"></script>
+</body>
+
+</html>
